@@ -1,5 +1,6 @@
 ﻿using Computer.Hardware.Store.Service.Dto;
 using Computer.Hardware.Store.Service.InventoryServices;
+using Computer.Hardware.Store.Service.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Computer.Hardware.Store.Api.Controllers
@@ -10,5 +11,8 @@ namespace Computer.Hardware.Store.Api.Controllers
     {
         [HttpPost]
         public async Task<int?> Upsert(InventoryDto inventory) => await inventoryManager.Upsert(inventory);
+
+        [HttpGet]
+        public async Task<List<ProductInventory>> GetInventory() => await inventoryManager.GetInventoryDataAsync();
     }
 }
