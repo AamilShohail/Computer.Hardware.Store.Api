@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Computer.Hardware.Store.Api
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Computer.Hardware.Store.Database", "..\Computer.Hardware.Store.Database\Computer.Hardware.Store.Database.csproj", "{82D36112-8244-405A-A652-F1E82B5D3447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Computer.Hardware.Store.Service", "..\Computer.Hardware.Store.Service\Computer.Hardware.Store.Service.csproj", "{EA037D7E-3063-46A6-82CF-7299682D71EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Computer.Hardware.Store.Service", "..\Computer.Hardware.Store.Service\Computer.Hardware.Store.Service.csproj", "{EA037D7E-3063-46A6-82CF-7299682D71EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{706B350B-415E-4D22-8757-918E4AFE6690}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
